@@ -1,0 +1,181 @@
+*{
+    outline: none;
+    padding:0;
+    margin:0;
+    outline:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+#login_body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    flex-direction: column;
+    color: white;
+    padding: 20px 20px;
+}
+a{
+    text-decoration:none;
+    color:blue;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    top: 0%;
+    background-color: black;
+    color: white;
+    /* border:2px solid red; */
+}
+#main-sec{
+    margin-left:180px;
+    height: 200px;
+    width: 100%;
+}
+#main-sec > form{
+    /* width:600px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.btn{
+    /*text-align:center;
+    min-width:200px;
+    cursor: pointer;
+    background-color: red;
+    font-weight: bold;
+    font-size: 30px;
+    padding:20px;
+    margin:10px;
+    border-radius:10px;
+    color:white;
+    border:none;*/
+
+}
+.center{
+    height: 10vh;
+    margin:20px;
+    text-align:center;
+    font-size: 35px;
+}
+#add_student{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction:column;
+
+}
+#add_student div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:600px
+
+} 
+#date_show{
+    text-align: center;
+    font-size: 22px;
+    border: none;
+}
+
+#add_student label{
+    width:170px;
+    font-weight: bold;
+    display: inline-block;
+}
+/* #add_student */
+input{
+    width: 250px;
+    padding: 4px;
+    margin: 5px 20px;
+}
+td input{
+    margin: 5px 10px !important;
+    width:120px !important;
+    margin:0 !important;
+    padding:0 !important;
+    border:none;
+}
+textarea{
+    width: 250px;
+    padding: 4px;
+    margin: 5px 20px;
+}
+
+.td{
+    border: 1px solid black;
+    text-align: center;
+    width: 119px;
+    max-height:200px;
+    height:auto;
+}
+#show_record{
+    padding:20px
+}
+
+#all_student_table{
+    width:100%;
+    border-collapse:collapse;
+}
+#submit{
+    text-align:center;
+    cursor: pointer;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    padding:10px;
+    margin:10px;
+    border-radius:5px;
+    color:white;
+    border:none;
+}
+.i_btn{
+    cursor: pointer;
+    width: auto !important;
+    padding: 6px 11px;
+    background: #ffbe30;
+    border-radius: 5px;
+    border: none;
+    margin: 5px 2px !important;
+}
+#h_div{
+    width:90%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin:10px;
+}
+#h_div > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn_icon{
+    border:none;
+    background: white !important;
+}
+
+@media screen
+  {
+.forscreen { display:block; }
+.forprinting { display:none; }
+  }
+@media print
+  {
+.forscreen { display:none; }
+.forprinting { display:block; }
+  }
+
