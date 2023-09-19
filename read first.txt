@@ -1,5 +1,0 @@
-database name 'model'
-username: admin
-password: admin
-
-starting point index.php
